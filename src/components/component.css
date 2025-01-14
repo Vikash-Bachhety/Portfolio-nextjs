@@ -1,0 +1,215 @@
+*::selection {
+  color: cyan;
+}
+
+.textColor {
+  animation: textColor 1s linear infinite alternate;
+}
+@keyframes textColor {
+  to {
+    color: #ff4646;
+  }
+  from {
+    color: #4eb8ff;
+  }
+}
+
+.leftMove {
+  animation: leftMove 2s ease-in infinite;
+}
+
+@keyframes leftMove {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.drops {
+  animation: drops 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes drops {
+  0% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+.colormove {
+  animation: colormove 2s linear;
+}
+
+@keyframes colormove {
+  from {
+    background-color: cyan;
+    left: 0%;
+  }
+  to {
+    background-color: orange;
+    left: 100%;
+  }
+}
+
+.textMove {
+  animation: move 2s linear infinite alternate;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(-5%);
+  }
+  to {
+    transform: translateX(5%);
+  }
+}
+
+.scale {
+  animation: scale 2s linear infinite alternate;
+}
+
+@keyframes scale {
+  0% {
+    box-shadow: 0 0 12px #019b9bcb;
+  }
+  25% {
+    box-shadow: 0 0 12px #d6ffb5bc;
+  }
+  50% {
+    box-shadow: 0 0 12px #b62903cb;
+  }
+  75% {
+    box-shadow: 0 0 12px #88ffffc6;
+  }
+  100% {
+    box-shadow: 0 0 12px #f279ffc8;
+  }
+}
+
+.rightMove {
+  animation: rightMove 1s infinite alternate linear;
+}
+
+@keyframes rightMove {
+  0% {
+    transform: translateX(-5%);
+    color: rgb(0, 179, 219);
+  }
+  50% {
+    transform: translateX(-5%);
+    color: rgb(255, 79, 79);
+  }
+  100% {
+    transform: translateX(5%);
+    color: rgb(39, 97, 255);
+  }
+}
+.animateLeftBalls {
+  animation: moveobj1 5s linear infinite alternate;
+}
+@keyframes moveobj1 {
+  0% {
+    left: 75%;
+    top: 90%;
+    background-color: yellow;
+    box-shadow: 0px 60px 100px rgb(255, 255, 255);
+    transform: scale(100%);
+  }
+
+  25% {
+    left: 60%;
+    top: 0%;
+    background-color: #fd7b7b;
+    box-shadow: 0px 60px 100px rgb(255, 255, 255);
+    transform: scale(90%);
+  }
+  50% {
+    left: 45%;
+    top: 90%;
+    background-color: #6df586;
+    box-shadow: 0px 60px 100px rgb(255, 255, 255);
+    transform: scale(100%);
+  }
+
+  75% {
+    left: 30%;
+    top: 0%;
+    background-color: #64bff8;
+    box-shadow: 0px 60px 100px rgb(255, 255, 255);
+    transform: scale(110%);
+  }
+  100% {
+    left: 15%;
+    top: 90%;
+    background-color: #e45fd4;
+  }
+}
+.animateRightBalls {
+  animation: moveobj 5s linear infinite alternate;
+}
+@keyframes moveobj {
+  0% {
+    left: 15%;
+    top: 0;
+    background-color: yellow;
+    box-shadow: 0px 60px 100px rgb(255, 255, 255);
+    transform: scale(100%);
+  }
+
+  25% {
+    left: 30%;
+    top: 90%;
+    background-color: #fd7b7b;
+    box-shadow: 0px 60px 100px rgb(255, 255, 255);
+    transform: scale(90%);
+  }
+  50% {
+    left: 45%;
+    top: 0;
+    background-color: #6df586;
+    box-shadow: 0px 60px 100px rgb(255, 255, 255);
+    transform: scale(100%);
+  }
+
+  75% {
+    left: 60%;
+    top: 90%;
+    background-color: #64bff8;
+    box-shadow: 0px 60px 100px rgb(255, 255, 255);
+    transform: scale(110%);
+  }
+  100% {
+    left: 75%;
+    top: 0%;
+    background-color: #e45fd4;
+  }
+}
+
+.textZoom {
+  animation: zoom 1s linear infinite alternate;
+}
+@keyframes zoom {
+  to {
+    transform: scale(100%);
+    background: linear-gradient(#0f1420 #000000);
+  }
+  from {
+    transform: scale(120%);
+  }
+}
+.textBg {
+  animation: bgColor 2s linear infinite alternate;
+}
+@keyframes bgColor {
+  to {
+    background-color: #25e325;
+  }
+  from {
+    background-color: #5656ed;
+  }
+}
+
