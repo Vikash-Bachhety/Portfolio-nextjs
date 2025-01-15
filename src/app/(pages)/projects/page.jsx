@@ -3,10 +3,10 @@
 import React, { useState } from "react";
 import img1 from "../assets/bg/1.jpg";
 import img2 from "../assets/bg/2.jpg";
-import img3 from "../assets/bg/3.jpg";
+// import img3 from "../assets/bg/3.jpg";
 import img4 from "../assets/bg/4.jpg";
 import img6 from "../assets/bg/6.jpg";
-import img7 from "../assets/bg/7.jpg";
+// import img7 from "../assets/bg/7.jpg";
 import img8 from "../assets/bg/8.jpg";
 import img9 from "../assets/bg/9.jpg";
 import Image from "next/image";
@@ -26,13 +26,13 @@ const projectsData = [
     visiterLink: "https://theme-mode-seven.vercel.app/",
     githubLink: "https://github.com/Vikash-Bachhety/ThemeMode",
   },
-  {
-    title: "Sangeet-music website",
-    Technologies: "HTML, CSS, JS, Tailwind",
-    image: img3,
-    visiterLink: "https://sangeet-xi.vercel.app/",
-    githubLink: "https://github.com/Vikash-Bachhety/Sangeet",
-  },
+  // {
+  //   title: "Sangeet-music website",
+  //   Technologies: "HTML, CSS, JS, Tailwind",
+  //   image: img3,
+  //   visiterLink: "https://sangeet-xi.vercel.app/",
+  //   githubLink: "https://github.com/Vikash-Bachhety/Sangeet",
+  // },
   {
     title: "API-Galaxy",
     Technologies: "HTML, CSS, Tailwind, React, React-router",
@@ -47,13 +47,13 @@ const projectsData = [
     visiterLink: "https://blog-with-cards.vercel.app/",
     githubLink: "https://github.com/Vikash-Bachhety/Blog",
   },
-  {
-    title: "Springboot BlogApp",
-    Technologies: "Tailwind, React, React-router, SpringBoot, Spring JPA, MySQL",
-    image: img7,
-    visiterLink: "https://frontend-java-blog-app.vercel.app/",
-    githubLink: "https://github.com/Vikash-Bachhety/backend_java_blogApp",
-  },
+  // {
+  //   title: "Springboot BlogApp",
+  //   Technologies: "Tailwind, React, React-router, SpringBoot, Spring JPA, MySQL",
+  //   image: img7,
+  //   visiterLink: "https://frontend-java-blog-app.vercel.app/",
+  //   githubLink: "https://github.com/Vikash-Bachhety/backend_java_blogApp",
+  // },
   {
     title: "Omnimart",
     Technologies: "Tailwind, React, React-router, Node.js, Express.js MongoDB",
