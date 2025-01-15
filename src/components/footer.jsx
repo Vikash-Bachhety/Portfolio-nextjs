@@ -9,7 +9,7 @@ import Image from "next/image";
 
 function Footer() {
   return (
-    <footer className="bg-gradient-href-t from-gray-950 href-slate-900 text-white py-12">
+    <footer className="bg-slate-900/90 text-white py-12">
       <div className="container mx-auto flex flex-col items-center gap-8 px-4 md:px-0">
         <div className="text-center mb-8 md:mb-0">
           <h3 className="text-lg font-semibold mb-6 hover:border-b-2 h-10 tracking-wider">Follow Me</h3>
