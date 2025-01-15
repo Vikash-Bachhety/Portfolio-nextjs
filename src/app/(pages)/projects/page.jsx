@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import img1 from "../assets/bg/1.jpg";
 import img2 from "../assets/bg/2.jpg";
 // import img3 from "../assets/bg/3.jpg";
-import img4 from "../assets/bg/4.jpg";
+import img4 from "../assets/bg/4.png";
 import img6 from "../assets/bg/6.jpg";
 // import img7 from "../assets/bg/7.jpg";
 import img8 from "../assets/bg/8.jpg";
