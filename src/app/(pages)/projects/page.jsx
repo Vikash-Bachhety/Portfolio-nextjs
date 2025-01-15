@@ -34,11 +34,11 @@ const projectsData = [
   //   githubLink: "https://github.com/Vikash-Bachhety/Sangeet",
   // },
   {
-    title: "WebCrafter",
-    Technologies: "Tailwind, React, React-router, Node.js, Express.js, Mongoose",
+    title: "API-GALAXY",
+    Technologies: "Tailwind, React, React-router",
     image: img4,
-    visiterLink: "https://web-crafter-hub.vercel.app",
-    githubLink: "https://github.com/Vikash-Bachhety/WebCrafter",
+    visiterLink: "https://api-galaxy-website.vercel.app/",
+    githubLink: "https://github.com/Vikash-Bachhety/API-Galaxy",
   },
   {
     title: "Blog-cards",
