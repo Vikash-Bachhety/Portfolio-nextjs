@@ -12,13 +12,13 @@ import img9 from "../assets/bg/9.jpg";
 import Image from "next/image";
 
 const projectsData = [
-  {
-    title: "E-Commerce UI Replica",
-    Technologies: "HTML, CSS",
-    image: img2,
-    visiterLink: "https://amazon-replica-gamma.vercel.app/",
-    githubLink: "https://github.com/Vikash-Bachhety/EthicalEcommerceDemo",
-  },
+  // {
+  //   title: "E-Commerce UI Replica",
+  //   Technologies: "HTML, CSS",
+  //   image: img2,
+  //   visiterLink: "https://amazon-replica-gamma.vercel.app/",
+  //   githubLink: "https://github.com/Vikash-Bachhety/EthicalEcommerceDemo",
+  // },
   {
     title: "Theme Changer",
     Technologies: "HTML, CSS, Tailwind, React",
