@@ -91,21 +91,21 @@
 }
 
 .rightMove {
-  animation: rightMove 1s infinite alternate linear;
+  animation: rightMove 2s infinite alternate linear;
 }
 
 @keyframes rightMove {
   0% {
     transform: translateX(-5%);
-    color: rgb(0, 179, 219);
+    color: rgb(228, 150, 33);
   }
   50% {
-    transform: translateX(-5%);
+    transform: translateX(5%);
     color: rgb(255, 79, 79);
   }
   100% {
-    transform: translateX(5%);
-    color: rgb(39, 97, 255);
+    transform: translateX(-5%);
+    color: rgb(26, 190, 40);
   }
 }
 .animateLeftBalls {
