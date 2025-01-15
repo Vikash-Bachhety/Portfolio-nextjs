@@ -12,48 +12,14 @@ import img9 from "../assets/bg/9.jpg";
 import Image from "next/image";
 
 const projectsData = [
-  // {
-  //   title: "E-Commerce UI Replica",
-  //   Technologies: "HTML, CSS",
-  //   image: img2,
-  //   visiterLink: "https://amazon-replica-gamma.vercel.app/",
-  //   githubLink: "https://github.com/Vikash-Bachhety/EthicalEcommerceDemo",
-  // },
+  [
   {
-    title: "Theme Changer",
-    Technologies: "HTML, CSS, Tailwind, React",
-    image: img1,
-    visiterLink: "https://theme-mode-seven.vercel.app/",
-    githubLink: "https://github.com/Vikash-Bachhety/ThemeMode",
+    title: "Eventify",
+    Technologies: "Next.js, Express.js, MongoDB, Tailwind",
+    image: img9,
+    visiterLink: "https://eventifymanagement-web.vercel.app/",
+    githubLink: "https://github.com/Vikash-Bachhety/Eventify",
   },
-  // {
-  //   title: "Sangeet-music website",
-  //   Technologies: "HTML, CSS, JS, Tailwind",
-  //   image: img3,
-  //   visiterLink: "https://sangeet-xi.vercel.app/",
-  //   githubLink: "https://github.com/Vikash-Bachhety/Sangeet",
-  // },
-  {
-    title: "API-GALAXY",
-    Technologies: "Tailwind, React, React-router",
-    image: img4,
-    visiterLink: "https://api-galaxy-website.vercel.app/",
-    githubLink: "https://github.com/Vikash-Bachhety/API-Galaxy",
-  },
-  {
-    title: "Blog-cards",
-    Technologies: "Tailwind, React, React-router, Node.js, Express.js, Mongoose",
-    image: img6,
-    visiterLink: "https://blog-with-cards.vercel.app/",
-    githubLink: "https://github.com/Vikash-Bachhety/Blog",
-  },
-  // {
-  //   title: "Springboot BlogApp",
-  //   Technologies: "Tailwind, React, React-router, SpringBoot, Spring JPA, MySQL",
-  //   image: img7,
-  //   visiterLink: "https://frontend-java-blog-app.vercel.app/",
-  //   githubLink: "https://github.com/Vikash-Bachhety/backend_java_blogApp",
-  // },
   {
     title: "Omnimart",
     Technologies: "Tailwind, React, React-router, Node.js, Express.js MongoDB",
@@ -62,12 +28,49 @@ const projectsData = [
     githubLink: "https://github.com/vikashi3/Omnimart",
   },
   {
-    title: "Eventify",
-    Technologies: "Next.js, Express.js, MongoDB, Tailwind",
-    image: img9,
-    visiterLink: "https://eventifymanagement-web.vercel.app/",
-    githubLink: "https://github.com/Vikash-Bachhety/Eventify",
+    title: "Blog-cards",
+    Technologies: "Tailwind, React, React-router, Node.js, Express.js, Mongoose",
+    image: img6,
+    visiterLink: "https://blog-with-cards.vercel.app/",
+    githubLink: "https://github.com/Vikash-Bachhety/Blog",
   },
+  {
+    title: "API-GALAXY",
+    Technologies: "Tailwind, React, React-router",
+    image: img4,
+    visiterLink: "https://api-galaxy-website.vercel.app/",
+    githubLink: "https://github.com/Vikash-Bachhety/API-Galaxy",
+  },
+  {
+    title: "Theme Changer",
+    Technologies: "HTML, CSS, Tailwind, React",
+    image: img1,
+    visiterLink: "https://theme-mode-seven.vercel.app/",
+    githubLink: "https://github.com/Vikash-Bachhety/ThemeMode",
+  },
+  // {
+  //   title: "E-Commerce UI Replica",
+  //   Technologies: "HTML, CSS",
+  //   image: img2,
+  //   visiterLink: "https://amazon-replica-gamma.vercel.app/",
+  //   githubLink: "https://github.com/Vikash-Bachhety/EthicalEcommerceDemo",
+  // },
+
+  // {
+  //   title: "Sangeet-music website",
+  //   Technologies: "HTML, CSS, JS, Tailwind",
+  //   image: img3,
+  //   visiterLink: "https://sangeet-xi.vercel.app/",
+  //   githubLink: "https://github.com/Vikash-Bachhety/Sangeet",
+  // },
+ 
+  // {
+  //   title: "Springboot BlogApp",
+  //   Technologies: "Tailwind, React, React-router, SpringBoot, Spring JPA, MySQL",
+  //   image: img7,
+  //   visiterLink: "https://frontend-java-blog-app.vercel.app/",
+  //   githubLink: "https://github.com/Vikash-Bachhety/backend_java_blogApp",
+  // },
 ];
 
 function Projects() {
