@@ -85,7 +85,7 @@ function Projects() {
         Welcome to my Projects section! Below are some of the projects I've worked on. Click on each card to learn more.
       </p>
       <div className="flex flex-wrap justify-center gap-6 md:gap-12 lg:gap-16">
-        {projects.reverse().map((project, index) => (
+        {projects.map((project, index) => (
           <ProjectCard key={index} project={project} />
         ))}
       </div>
