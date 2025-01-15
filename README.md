@@ -89,17 +89,7 @@ Welcome to **my portfolio**, a personal project built using **Next.js**, a power
 ## **Future Enhancements**
 - Add animations to transitions between sections.
 - Integrate a blogging feature.
-- Implement dark mode support.
 
 ---
 
 For any issues or suggestions regarding this portfolio, feel free to reach out using the **Contact** section.
-
----
-
-### **Icons Legend**
-- 🏠 Home
-- 📖 About
-- 💻 Skills
-- 📂 Projects
-- 📧 Contact
