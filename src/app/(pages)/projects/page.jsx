@@ -58,7 +58,7 @@ const projectsData = [
     title: "Omnimart",
     Technologies: "Tailwind, React, React-router, Node.js, Express.js MongoDB",
     image: img8,
-    visiterLink: "https://omnimart-ecom.vercel.app/",
+    visiterLink: "https://omnimart-sage.vercel.app",
     githubLink: "https://github.com/vikashi3/Omnimart",
   },
   {
