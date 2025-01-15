@@ -21,7 +21,7 @@ function About() {
           />
         </div>
         <div className="flex flex-col items-center md:w-full lg:w-1/2 text-center lg:text-left p-4 md:p-5 leading-loose">
-          <h2 className="drops text-3xl md:text-5xl lg:text-5xl font-bold mb-2 md:mb-4">
+          <h2 className="drops text-3xl md:text-5xl lg:text-5xl font-bold mb-2 mt-6 md:mt-0 md:mb-4">
             Hi, I'm <span className="text-cyan-500">Vikash Bachhety</span>
           </h2>
           <p className="textMove text-base md:text-2xl lg:text-xl tracking-widest text-rose-600 mb-4 md:mb-10">
