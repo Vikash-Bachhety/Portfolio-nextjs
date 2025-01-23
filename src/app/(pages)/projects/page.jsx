@@ -9,10 +9,18 @@ import img6 from "../assets/bg/6.jpg";
 // import img7 from "../assets/bg/7.jpg";
 import img8 from "../assets/bg/8.jpg";
 import img9 from "../assets/bg/9.jpg";
+import img10 from "../assets/bg/10.jpg";
 import Image from "next/image";
 
 const projectsData = [
   [
+    {
+    title: "Aadhyatma",
+    Technologies: "wordpress",
+    image: img10,
+    visiterLink: "https://testingwebsites.in/aadhyatma/",
+    // githubLink: "https://github.com/Vikash-Bachhety/Eventify",
+  },
   {
     title: "Eventify",
     Technologies: "Next.js, Express.js, MongoDB, Tailwind",
